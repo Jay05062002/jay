@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after pseudo selector</title>
+   <style>
+     body{
+         color: white;
+         background-color: aqua;
+         
+        
+         
+     }
+
+     header{
+        background: url('https://source.unsplash.com/random/900×700/?fruit') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+         z-index: -1;
+         opacity: 0.9;
+     }
+
+     .navigation{
+         display: flex;
+         
+     }
+     .item{
+         padding: 22px 14px;
+         text-decoration: none;
+         list-style: none;
+         text-shadow: 2px 3px  15px black;
+     }
+
+     section{
+         height: 244px;
+         padding: 200px;
+         margin: 5px 250px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         text-shadow: 5px 5px 10px red;
+     }
+
+     h1{
+         font-size: 4rem;
+     }
+
+     section::after{
+         content: 'this is a content';
+     }
+   </style>
+
+</head>
+<body>
+   <header>
+
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="item">Home</li>
+            <li class="item">Service</li>
+            <li class="item">About</li>
+            <li class="item">Contact</li>
+        </ul>
+    </nav>
+   </header>
+   <section>
+       <h1>
+         Welcome to my website
+       </h1>
+       <p>
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore necessitatibus architecto, amet tempora iste aliquid dolores commodi. Asperiores veritatis sunt quam velit, modi dignissimos at molestias, expedita sapiente, rem aliquam.
+       </p>
+    </section>
+    <hr>
+
+    
+</body>
+</html>

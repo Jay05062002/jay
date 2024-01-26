@@ -1,0 +1,93 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('gym.jpg');
+    color: Red;
+}
+
+.Left{
+    position: absolute;
+    left: 40px;
+    top: 25px;
+    display: inline-block;
+    
+}
+
+.Left img{
+        width: 105px;
+}
+
+.Mid{
+    display: block;
+    width: 33%;
+    margin: 25px auto;
+    
+}
+
+.Right{
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    display: inline-block;
+     
+}
+
+.btn{
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 12px 14px;
+    margin: 10px;
+    border-radius: 25px;
+    color: red;
+    background-color:black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: wheat;
+}
+
+.navbar{
+    list-style: none ;
+    overflow: auto;
+}
+
+.navbar li a{
+    color: red;
+    text-decoration: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 12px 14px;
+    margin: 5px 10px;
+    font-size: 15px;
+}
+
+.navbar li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.container{
+   
+    padding: 12px 50px;
+    margin: 200px 105px;   
+     width: 500px;
+     border-radius: 10px;
+}
+
+.form-group input{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 12px 14px;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+.form-group input:hover{
+    background-color: grey;
+}
